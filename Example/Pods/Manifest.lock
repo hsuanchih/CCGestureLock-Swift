@@ -1,0 +1,16 @@
+PODS:
+  - CCGestureLock (0.1.0)
+
+DEPENDENCIES:
+  - CCGestureLock (from `../`)
+
+EXTERNAL SOURCES:
+  CCGestureLock:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CCGestureLock: 94cb0ed357fbcbf36c847e697dec4e7fd18f5ab2
+
+PODFILE CHECKSUM: 4636c84965ade00df5ee0eadc8c1c0950c1a0457
+
+COCOAPODS: 1.1.1

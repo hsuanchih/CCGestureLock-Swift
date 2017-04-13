@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		472443681E9F6FAE002971E5 /* GestureLockDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472443661E9F6FAE002971E5 /* GestureLockDemoViewController.swift */; };
+		472443691E9F6FAE002971E5 /* GestureLockDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 472443671E9F6FAE002971E5 /* GestureLockDemoViewController.xib */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,10 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13DB95DEE359FDAEE79B005B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		13DB95DEE359FDAEE79B005B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2F7B8F1D012C882A6CA31923 /* Pods-CCGestureLock_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCGestureLock_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCGestureLock_Tests/Pods-CCGestureLock_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		48A361E16399D695A5006891 /* CCGestureLock.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CCGestureLock.podspec; path = ../CCGestureLock.podspec; sourceTree = "<group>"; };
-		5BC68DB9F8AEA3637EC49F87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		472443661E9F6FAE002971E5 /* GestureLockDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureLockDemoViewController.swift; sourceTree = "<group>"; };
+		472443671E9F6FAE002971E5 /* GestureLockDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GestureLockDemoViewController.xib; sourceTree = "<group>"; };
+		48A361E16399D695A5006891 /* CCGestureLock.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CCGestureLock.podspec; path = ../CCGestureLock.podspec; sourceTree = "<group>"; };
+		5BC68DB9F8AEA3637EC49F87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CCGestureLock_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCGestureLock_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 		607FACD21AFB9204008FA782 /* Example for CCGestureLock */ = {
 			isa = PBXGroup;
 			children = (
+				472443661E9F6FAE002971E5 /* GestureLockDemoViewController.swift */,
+				472443671E9F6FAE002971E5 /* GestureLockDemoViewController.xib */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -210,7 +216,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -250,6 +256,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				472443691E9F6FAE002971E5 /* GestureLockDemoViewController.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +370,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				472443681E9F6FAE002971E5 /* GestureLockDemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +503,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87F93E45AC24FFF16005B858 /* Pods-CCGestureLock_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCGestureLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -509,6 +518,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 68032FB591446130E7CB35AA /* Pods-CCGestureLock_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCGestureLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

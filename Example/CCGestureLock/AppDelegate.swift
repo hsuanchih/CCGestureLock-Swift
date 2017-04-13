@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  CCGestureLock
 //
-//  Created by Kelly Chuang on 04/13/2017.
-//  Copyright (c) 2017 Kelly Chuang. All rights reserved.
+//  Created by Hsuan-Chih Chuang on 04/13/2017.
+//  Copyright (c) 2017 Hsuan-Chih Chuang. All rights reserved.
 //
 
 import UIKit

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GestureLockDemoViewController" customModule="CCGestureLock_Example" customModuleProvider="target">
+            <connections>
+                <outlet property="controlView" destination="788-fD-Pjr" id="j00-70-qLo"/>
+                <outlet property="gestureLock" destination="MYH-ar-o1s" id="hYq-X8-pEm"/>
+                <outlet property="leftButton" destination="2at-Mt-ZL5" id="pOS-II-SOO"/>
+                <outlet property="rightButton" destination="NWJ-8G-Wnb" id="yO6-HR-SLP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MYH-ar-o1s" customClass="CCGestureLock" customModule="CCGestureLock">
+                    <rect key="frame" x="0.0" y="80" width="320" height="320"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="MYH-ar-o1s" secondAttribute="height" id="Qpz-ZC-tTJ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="788-fD-Pjr">
+                    <rect key="frame" x="0.0" y="400" width="320" height="80"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2at-Mt-ZL5">
+                            <rect key="frame" x="24" y="24" width="112" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="32" id="HGd-Xy-4wy"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <state key="normal" title="Cancel"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NWJ-8G-Wnb">
+                            <rect key="frame" x="184" y="24" width="112" height="32"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <state key="normal" title="Confirm"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="NWJ-8G-Wnb" firstAttribute="width" secondItem="2at-Mt-ZL5" secondAttribute="width" id="5dA-qu-Szh"/>
+                        <constraint firstItem="2at-Mt-ZL5" firstAttribute="width" secondItem="788-fD-Pjr" secondAttribute="width" multiplier="0.35" id="5jc-ec-veS"/>
+                        <constraint firstItem="2at-Mt-ZL5" firstAttribute="centerY" secondItem="788-fD-Pjr" secondAttribute="centerY" id="5wU-4x-rv9"/>
+                        <constraint firstItem="2at-Mt-ZL5" firstAttribute="centerX" secondItem="788-fD-Pjr" secondAttribute="centerX" multiplier="0.5" id="Zsd-hY-lOF"/>
+                        <constraint firstItem="NWJ-8G-Wnb" firstAttribute="centerX" secondItem="788-fD-Pjr" secondAttribute="centerX" multiplier="1.5" id="ctM-di-TkA"/>
+                        <constraint firstItem="NWJ-8G-Wnb" firstAttribute="centerY" secondItem="788-fD-Pjr" secondAttribute="centerY" id="fWt-KT-6Mt"/>
+                        <constraint firstItem="NWJ-8G-Wnb" firstAttribute="height" secondItem="2at-Mt-ZL5" secondAttribute="height" id="y6j-dW-S3G"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="788-fD-Pjr" secondAttribute="trailing" id="4UO-aU-mgC"/>
+                <constraint firstItem="788-fD-Pjr" firstAttribute="top" secondItem="MYH-ar-o1s" secondAttribute="bottom" id="8HZ-L9-CCr"/>
+                <constraint firstAttribute="bottom" secondItem="788-fD-Pjr" secondAttribute="bottom" id="NzC-9n-Fjc"/>
+                <constraint firstItem="MYH-ar-o1s" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Q6e-Qm-0aH"/>
+                <constraint firstItem="788-fD-Pjr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="lx6-cC-iek"/>
+                <constraint firstAttribute="trailing" secondItem="MYH-ar-o1s" secondAttribute="trailing" id="n8u-GP-dDf"/>
+                <constraint firstItem="MYH-ar-o1s" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rXV-9W-7JG"/>
+                <constraint firstItem="MYH-ar-o1s" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="tjU-RS-VKc"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

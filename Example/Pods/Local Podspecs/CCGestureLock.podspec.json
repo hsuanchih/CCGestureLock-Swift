@@ -1,0 +1,22 @@
+{
+  "name": "CCGestureLock",
+  "version": "0.1.0",
+  "summary": "A short description of CCGestureLock.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Kelly Chuang/CCGestureLock",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kelly Chuang": "kelly@inno-orz.com"
+  },
+  "source": {
+    "git": "https://github.com/Kelly Chuang/CCGestureLock.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CCGestureLock/Classes/**/*"
+}

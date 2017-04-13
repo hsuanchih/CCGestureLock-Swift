@@ -1,6 +1,8 @@
 # CCGestureLock
 
-[![CI Status](http://img.shields.io/travis/Kelly Chuang/CCGestureLock.svg?style=flat)](https://travis-ci.org/Kelly Chuang/CCGestureLock)
+CCGestureLock (Swift) is a customisable gesture/pattern lock for iOS written in Swift.
+
+
 [![Version](https://img.shields.io/cocoapods/v/CCGestureLock.svg?style=flat)](http://cocoapods.org/pods/CCGestureLock)
 [![License](https://img.shields.io/cocoapods/l/CCGestureLock.svg?style=flat)](http://cocoapods.org/pods/CCGestureLock)
 [![Platform](https://img.shields.io/cocoapods/p/CCGestureLock.svg?style=flat)](http://cocoapods.org/pods/CCGestureLock)
@@ -22,7 +24,7 @@ pod "CCGestureLock"
 
 ## Author
 
-Kelly Chuang, kelly@inno-orz.com
+Hsuan-Chih Chuang, hsuanchih.chuang@gmail.com
 
 ## License
 

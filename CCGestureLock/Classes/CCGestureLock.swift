@@ -9,7 +9,7 @@ import UIKit
 
 
 public extension UIControlEvents {
-    
+    static var gestureBegan: UIControlEvents { return UIControlEvents(rawValue: 0b0001 << 23) }
     static var gestureComplete: UIControlEvents { return UIControlEvents(rawValue: 0b0001 << 24) }
 }
 
@@ -270,6 +270,8 @@ public class CCGestureLock: UIControl {
     override public func beginTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
         if selectionPath.count == 0 {
             if let sensorIndexPath = hitTest(touch.location(in: self)) {
+                sendActions(for: .gestureBegan)
+                
                 updateSelectionPathForSelectedSensor(sensorIndexPath)
                 return true
             }

@@ -162,7 +162,7 @@ class GestureLockDemoViewController: UIViewController {
         
     }
     
-    func buttonTapped(button: UIButton) {
+    @objc func buttonTapped(button: UIButton) {
         
         if button == rightButton {
             Password.lockSequence = gestureLock.lockSequence
@@ -174,7 +174,7 @@ class GestureLockDemoViewController: UIViewController {
         
     }
     
-    func gestureComplete(gestureLock: CCGestureLock) {
+    @objc func gestureComplete(gestureLock: CCGestureLock) {
         
         if lockMode == .locked {
             

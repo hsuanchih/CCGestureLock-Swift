@@ -15,6 +15,7 @@
 		472443631E9F6F8F002971E5 /* CCGestureLockAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4724435F1E9F6F8F002971E5 /* CCGestureLockAppearance.swift */; };
 		472443641E9F6F8F002971E5 /* CCGestureLockCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472443601E9F6F8F002971E5 /* CCGestureLockCollectionViewCell.swift */; };
 		472443651E9F6F8F002971E5 /* CCGestureLockSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472443611E9F6F8F002971E5 /* CCGestureLockSensor.swift */; };
+		47697278217047DC00FA3B50 /* VersionBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47697277217047DC00FA3B50 /* VersionBridge.swift */; };
 		6F45C9954C00DD458CF1C026907F02AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		944E0C0098741D242FE341D594999AD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		A9A07AB81012DBA4FB86BEF7AD599485 /* Pods-CCGestureLock_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD28F1DD441557450DE48831033F5FF /* Pods-CCGestureLock_Tests-dummy.m */; };
@@ -44,6 +45,7 @@
 		4724435F1E9F6F8F002971E5 /* CCGestureLockAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCGestureLockAppearance.swift; sourceTree = "<group>"; };
 		472443601E9F6F8F002971E5 /* CCGestureLockCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCGestureLockCollectionViewCell.swift; sourceTree = "<group>"; };
 		472443611E9F6F8F002971E5 /* CCGestureLockSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCGestureLockSensor.swift; sourceTree = "<group>"; };
+		47697277217047DC00FA3B50 /* VersionBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionBridge.swift; sourceTree = "<group>"; };
 		548B8829CC03EE186808EC3639F9D99F /* Pods-CCGestureLock_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCGestureLock_Example-umbrella.h"; sourceTree = "<group>"; };
 		577E98A2F1E948AE22D5A9E43C29A4BD /* Pods-CCGestureLock_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCGestureLock_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5AE60DF3D3F61B13993B4882FF4B8594 /* Pods-CCGestureLock_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCGestureLock_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				4724435F1E9F6F8F002971E5 /* CCGestureLockAppearance.swift */,
 				472443601E9F6F8F002971E5 /* CCGestureLockCollectionViewCell.swift */,
 				472443611E9F6F8F002971E5 /* CCGestureLockSensor.swift */,
+				47697277217047DC00FA3B50 /* VersionBridge.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				472443651E9F6F8F002971E5 /* CCGestureLockSensor.swift in Sources */,
+				47697278217047DC00FA3B50 /* VersionBridge.swift in Sources */,
 				246A32288CEE89EDE71AB530124143D3 /* CCGestureLock-dummy.m in Sources */,
 				472443631E9F6F8F002971E5 /* CCGestureLockAppearance.swift in Sources */,
 				472443621E9F6F8F002971E5 /* CCGestureLock.swift in Sources */,

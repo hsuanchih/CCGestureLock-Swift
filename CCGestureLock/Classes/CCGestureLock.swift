@@ -11,6 +11,7 @@ import UIKit
 public extension UIControlEvents {
     static var gestureBegan: UIControlEvents { return UIControlEvents(rawValue: 0b0001 << 23) }
     static var gestureComplete: UIControlEvents { return UIControlEvents(rawValue: 0b0001 << 24) }
+    static var gestureConnectedNode: UIControlEvents { return UIControlEvents(rawValue: 0b0001 << 25) }
 }
 
 
@@ -131,9 +132,7 @@ public class CCGestureLock: UIControl {
     
     
     // Lock sequence cache
-    private lazy var selectionPath = {
-        return [IndexPath]()
-    }()
+    private var selectionPath = [IndexPath]()
     
     public var lockSequence: [NSNumber] {
         get {
@@ -141,6 +140,12 @@ public class CCGestureLock: UIControl {
                 return NSNumber(value: indexPath.item as Int)
             })
         }
+    }
+
+    func updateSelectionPath(with indexPath: IndexPath) {
+        guard !selectionPath.contains(indexPath) else { return }
+        selectionPath.append(indexPath)
+        sendActions(for: .gestureConnectedNode)
     }
     
     func resetLock() {
@@ -217,7 +222,7 @@ public class CCGestureLock: UIControl {
         let next = start < end ? start + increment : start - increment
         let indexPath = IndexPath(item: next, section: 0)
         if !selectionPath.contains(indexPath) {
-            selectionPath.append(indexPath)
+            updateSelectionPath(with: indexPath)
             collectionView.selectItem(
                 at: indexPath,
                 animated: true,

@@ -127,6 +127,7 @@ public class CCGestureLock: UIControl {
         collectionView.allowsMultipleSelection = true
         collectionView.delegate = self.appearance
         collectionView.dataSource = self.appearance
+        collectionView.accessibilityIdentifier = "Gesture Lock"
         return collectionView
     }()
     

@@ -25,7 +25,8 @@ extension CCGestureLockAppearance: UICollectionViewDataSource {
             withReuseIdentifier: "\(String(describing:  CCGestureLockCollectionViewCell.self))ID",
             for: indexPath
         )
-        
+
+        cell.accessibilityIdentifier = "Grid section \(indexPath.section), row \(indexPath.row)"
         (cell as? CCGestureLockCollectionViewCell)?.sensorImageView.image = settings[.normal]?.sensor.image
         (cell as? CCGestureLockCollectionViewCell)?.sensorImageView.highlightedImage = (control?.gestureLockState == .normal) ? settings[.selected]?.sensor.image : settings[.error]?.sensor.image
         

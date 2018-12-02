@@ -9,8 +9,9 @@ import UIKit
 
 
 public extension UIControlEvents {
-    
+    static var gestureBegan: UIControlEvents { return UIControlEvents(rawValue: 0b0001 << 23) }
     static var gestureComplete: UIControlEvents { return UIControlEvents(rawValue: 0b0001 << 24) }
+    static var gestureConnectedNode: UIControlEvents { return UIControlEvents(rawValue: 0b0001 << 25) }
 }
 
 
@@ -126,14 +127,13 @@ public class CCGestureLock: UIControl {
         collectionView.allowsMultipleSelection = true
         collectionView.delegate = self.appearance
         collectionView.dataSource = self.appearance
+        collectionView.accessibilityIdentifier = "Gesture Lock"
         return collectionView
     }()
     
     
     // Lock sequence cache
-    private lazy var selectionPath = {
-        return [IndexPath]()
-    }()
+    private var selectionPath = [IndexPath]()
     
     public var lockSequence: [NSNumber] {
         get {
@@ -141,6 +141,12 @@ public class CCGestureLock: UIControl {
                 return NSNumber(value: indexPath.item as Int)
             })
         }
+    }
+
+    func updateSelectionPath(with indexPath: IndexPath) {
+        guard !selectionPath.contains(indexPath) else { return }
+        selectionPath.append(indexPath)
+        sendActions(for: .gestureConnectedNode)
     }
     
     func resetLock() {
@@ -217,7 +223,7 @@ public class CCGestureLock: UIControl {
         let next = start < end ? start + increment : start - increment
         let indexPath = IndexPath(item: next, section: 0)
         if !selectionPath.contains(indexPath) {
-            selectionPath.append(indexPath)
+            updateSelectionPath(with: indexPath)
             collectionView.selectItem(
                 at: indexPath,
                 animated: true,
@@ -270,6 +276,8 @@ public class CCGestureLock: UIControl {
     override public func beginTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
         if selectionPath.count == 0 {
             if let sensorIndexPath = hitTest(touch.location(in: self)) {
+                sendActions(for: .gestureBegan)
+                
                 updateSelectionPathForSelectedSensor(sensorIndexPath)
                 return true
             }

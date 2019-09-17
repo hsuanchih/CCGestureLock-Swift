@@ -204,7 +204,7 @@ public class CCGestureLock: UIControl {
         if let previousSelection = selectionPath.last {
             
             let deltaIndex = abs(indexPath.item - previousSelection.item)
-            let deltaRows = abs(previousSelection.item/lockSize.numVerticalSensors - indexPath.item/lockSize.numVerticalSensors)
+            let deltaRows = abs(previousSelection.item/lockSize.numHorizontalSensors - indexPath.item/lockSize.numHorizontalSensors)
             let divisor = deltaRows > 1 && deltaIndex%deltaRows == 0 ? deltaIndex/deltaRows : deltaIndex
             updateSelectionPath(previousSelection.item, end: indexPath.item, increment: deltaRows == 0 ? 1 : divisor)
             

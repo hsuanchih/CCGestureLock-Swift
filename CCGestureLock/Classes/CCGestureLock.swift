@@ -291,7 +291,7 @@ public class CCGestureLock: UIControl {
     override public func continueTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
         latestTouchPoint = touch.location(in: self)
         if let sensorIndexPath = hitTest(latestTouchPoint) {
-            if selectionPath.index(of: sensorIndexPath) == nil {
+            if selectionPath.firstIndex(of: sensorIndexPath) == nil {
                 updateSelectionPathForSelectedSensor(sensorIndexPath)
                 sendActions(for: .valueChanged)
             }

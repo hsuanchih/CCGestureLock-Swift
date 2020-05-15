@@ -128,6 +128,9 @@ public class CCGestureLock: UIControl {
         collectionView.delegate = self.appearance
         collectionView.dataSource = self.appearance
         collectionView.accessibilityIdentifier = "Gesture Lock"
+        if #available(iOS 9.0, *) {
+            collectionView.semanticContentAttribute = .forceLeftToRight
+        }
         return collectionView
     }()
     

@@ -1,3 +1,4 @@
+platform :ios, '8.0'
 use_frameworks!
 
 target 'CCGestureLock_Example' do
@@ -6,6 +7,6 @@ target 'CCGestureLock_Example' do
   target 'CCGestureLock_Tests' do
     inherit! :search_paths
 
-    
+
   end
 end

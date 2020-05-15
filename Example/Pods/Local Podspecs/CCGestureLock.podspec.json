@@ -1,19 +1,19 @@
 {
   "name": "CCGestureLock",
-  "version": "0.1.0",
-  "summary": "A short description of CCGestureLock.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Kelly Chuang/CCGestureLock",
+  "version": "0.1.4",
+  "summary": "CCGestureLock (Swift) is a customisable gesture/pattern lock for iOS written in Swift.",
+  "description": "The CCGestureLock (Swift) CocoaPod provides a customisable gesture/pattern lock for iOS written in Swift.",
+  "homepage": "https://github.com/hsuanchih/CCGestureLock-Swift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Kelly Chuang": "kelly@inno-orz.com"
+    "Hsuan-Chih Chuang": "hsuanchih.chuang@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Kelly Chuang/CCGestureLock.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/hsuanchih/CCGestureLock-Swift.git",
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"

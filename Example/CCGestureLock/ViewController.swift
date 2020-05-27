@@ -17,9 +17,11 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
+
+        let vc = GestureLockDemoViewController()
+        vc.modalPresentationStyle = .fullScreen
         present(
-            GestureLockDemoViewController(),
+            vc,
             animated: true,
             completion: nil
         )

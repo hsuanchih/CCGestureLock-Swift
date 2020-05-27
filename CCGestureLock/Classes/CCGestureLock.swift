@@ -128,6 +128,9 @@ public class CCGestureLock: UIControl {
         collectionView.delegate = self.appearance
         collectionView.dataSource = self.appearance
         collectionView.accessibilityIdentifier = "Gesture Lock"
+        if #available(iOS 9.0, *) {
+            collectionView.semanticContentAttribute = .forceLeftToRight
+        }
         return collectionView
     }()
     
@@ -288,7 +291,7 @@ public class CCGestureLock: UIControl {
     override public func continueTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
         latestTouchPoint = touch.location(in: self)
         if let sensorIndexPath = hitTest(latestTouchPoint) {
-            if selectionPath.index(of: sensorIndexPath) == nil {
+            if selectionPath.firstIndex(of: sensorIndexPath) == nil {
                 updateSelectionPathForSelectedSensor(sensorIndexPath)
                 sendActions(for: .valueChanged)
             }

@@ -1,16 +1,16 @@
 PODS:
-  - CCGestureLock (0.1.0)
+  - CCGestureLock (0.1.4)
 
 DEPENDENCIES:
   - CCGestureLock (from `../`)
 
 EXTERNAL SOURCES:
   CCGestureLock:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  CCGestureLock: 94cb0ed357fbcbf36c847e697dec4e7fd18f5ab2
+  CCGestureLock: 9cd4ef1bc410b1457c1b131de87c438b2dcd29f5
 
-PODFILE CHECKSUM: 4636c84965ade00df5ee0eadc8c1c0950c1a0457
+PODFILE CHECKSUM: 999ccd7a7f86a6e15e5cb1df21700e310f3b807e
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.8.4

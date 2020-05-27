@@ -7,270 +7,270 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EC3B35F28848AC68CCA85FE7A20D25A /* CCGestureLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B6D3DBA66A67943CDE6B14381C3A62 /* CCGestureLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B06E5621C9B5428AF36FB66F5F151D2 /* Pods-CCGestureLock_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 939AF62C7CD27DC0D07C173C597FB8E3 /* Pods-CCGestureLock_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		246A32288CEE89EDE71AB530124143D3 /* CCGestureLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AB5C209046B1EC3A873679E7C79341 /* CCGestureLock-dummy.m */; };
-		441338E512A48799219CDC46AD3E659B /* Pods-CCGestureLock_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 548B8829CC03EE186808EC3639F9D99F /* Pods-CCGestureLock_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		472443621E9F6F8F002971E5 /* CCGestureLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4724435E1E9F6F8F002971E5 /* CCGestureLock.swift */; };
-		472443631E9F6F8F002971E5 /* CCGestureLockAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4724435F1E9F6F8F002971E5 /* CCGestureLockAppearance.swift */; };
-		472443641E9F6F8F002971E5 /* CCGestureLockCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472443601E9F6F8F002971E5 /* CCGestureLockCollectionViewCell.swift */; };
-		472443651E9F6F8F002971E5 /* CCGestureLockSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472443611E9F6F8F002971E5 /* CCGestureLockSensor.swift */; };
-		47697278217047DC00FA3B50 /* VersionBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47697277217047DC00FA3B50 /* VersionBridge.swift */; };
-		6F45C9954C00DD458CF1C026907F02AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		944E0C0098741D242FE341D594999AD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		A9A07AB81012DBA4FB86BEF7AD599485 /* Pods-CCGestureLock_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD28F1DD441557450DE48831033F5FF /* Pods-CCGestureLock_Tests-dummy.m */; };
-		CA860EDBE426C649C9232E1B00A604C7 /* Pods-CCGestureLock_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6914220A27726F07187ADBCA09F58E4E /* Pods-CCGestureLock_Example-dummy.m */; };
-		D9286F33CBF20B1498A2E35709EDBAE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		08149967E06BC8D37FACC51DC8556B70 /* CCGestureLockAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61DE1F91BF4233A331E75F4CB735096 /* CCGestureLockAppearance.swift */; };
+		2F9970FE28C3DE5090DA66387A8873F3 /* CCGestureLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166FBB9CC6B62C3E86E9CA21139EA9A /* CCGestureLock-dummy.m */; };
+		5270285D6B02B52D7F1543AADD73C5F7 /* CCGestureLockCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB224A2E7E0310886D31F3ECFD3C4798 /* CCGestureLockCollectionViewCell.swift */; };
+		5821F3C5C70FFF74971F6F6DBD406E6B /* Pods-CCGestureLock_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CAD77CDE7ECFD0DED852263E6CAD2C2 /* Pods-CCGestureLock_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D32293E01E7891A0B3CAA63435F6DCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		88FCFC39D8FE72685D19206FCED16C88 /* Pods-CCGestureLock_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A089757F6E4B9D45D166369939158D /* Pods-CCGestureLock_Example-dummy.m */; };
+		9C14D52A12FF4B1C47B13D8FE82E1D06 /* Pods-CCGestureLock_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7D868030DB7BBBC0F6F6BC1C81426B2 /* Pods-CCGestureLock_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADCA211AFAA797D2BB2BA4D8D3C32B0C /* CCGestureLockSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD6A7BDAEDBFCF5824B00118716D905 /* CCGestureLockSensor.swift */; };
+		B4B2AAEE39D2DDEDCEB803934CEB8B45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C6231E5667E5626FF86FEEC1017F5D67 /* Pods-CCGestureLock_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE9E470653B7EDCA1E6720E239F8 /* Pods-CCGestureLock_Tests-dummy.m */; };
+		C7420F805DF57B99D4C788E74443E4BD /* VersionBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919E6B3B9BF34F7EB4ED49068C3F902 /* VersionBridge.swift */; };
+		CB7360EF6091A9E2C359D774309A986B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CD05F06859EAE68789D6005338F320E1 /* CCGestureLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1EA369ADFF3DABE9212E903152E743 /* CCGestureLock.swift */; };
+		D4AE12D2D4F4042F91AED6ED585BA866 /* CCGestureLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B8B59B5C0C1C7500704FA88C32C984 /* CCGestureLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EE9A04FD9B8C1B521E87CA3C145A7C2D /* PBXContainerItemProxy */ = {
+		5734ECF0082B7962D3C9042D2B6980D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 22D8834F0E0A1FBB204456E5BDDE1C56;
+			remoteGlobalIDString = 90BF74A46B5DA6268CFC00AA9303321D;
+			remoteInfo = "Pods-CCGestureLock_Example";
+		};
+		FBA14D4EA53276B077B7DD98F1C43CD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0532D55631869FCCFCFC8CF00B2B2B9E;
 			remoteInfo = CCGestureLock;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E7AB2B4E79AC250656C2A330BB21B3C /* Pods_CCGestureLock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCGestureLock_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		14B6D3DBA66A67943CDE6B14381C3A62 /* CCGestureLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCGestureLock-umbrella.h"; sourceTree = "<group>"; };
-		168219B0BE6A1FAAF1012DF7F917B92B /* Pods-CCGestureLock_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCGestureLock_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		23A8965342A026E13195F3634DD36BB6 /* CCGestureLock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCGestureLock.xcconfig; sourceTree = "<group>"; };
-		2F28A44763F6F50186FFC877B5B35C25 /* CCGestureLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CCGestureLock.modulemap; sourceTree = "<group>"; };
-		328D4C732C9552E37157A51D69E609C4 /* Pods-CCGestureLock_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCGestureLock_Tests-resources.sh"; sourceTree = "<group>"; };
-		4040CA2C35E22D8DEFACF07DBDF90C8F /* CCGestureLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCGestureLock-prefix.pch"; sourceTree = "<group>"; };
-		4724435E1E9F6F8F002971E5 /* CCGestureLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCGestureLock.swift; sourceTree = "<group>"; };
-		4724435F1E9F6F8F002971E5 /* CCGestureLockAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCGestureLockAppearance.swift; sourceTree = "<group>"; };
-		472443601E9F6F8F002971E5 /* CCGestureLockCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCGestureLockCollectionViewCell.swift; sourceTree = "<group>"; };
-		472443611E9F6F8F002971E5 /* CCGestureLockSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCGestureLockSensor.swift; sourceTree = "<group>"; };
-		47697277217047DC00FA3B50 /* VersionBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionBridge.swift; sourceTree = "<group>"; };
-		548B8829CC03EE186808EC3639F9D99F /* Pods-CCGestureLock_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCGestureLock_Example-umbrella.h"; sourceTree = "<group>"; };
-		577E98A2F1E948AE22D5A9E43C29A4BD /* Pods-CCGestureLock_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCGestureLock_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5AE60DF3D3F61B13993B4882FF4B8594 /* Pods-CCGestureLock_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCGestureLock_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5BC7AE177873307C8CD530C8AFF40E4A /* Pods-CCGestureLock_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CCGestureLock_Tests.modulemap"; sourceTree = "<group>"; };
-		5CD28F1DD441557450DE48831033F5FF /* Pods-CCGestureLock_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCGestureLock_Tests-dummy.m"; sourceTree = "<group>"; };
-		6914220A27726F07187ADBCA09F58E4E /* Pods-CCGestureLock_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCGestureLock_Example-dummy.m"; sourceTree = "<group>"; };
-		746B093530DA56316D2DD0A024D86213 /* CCGestureLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCGestureLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DFC97E927E883CE854BC7D262033BD5 /* Pods-CCGestureLock_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCGestureLock_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8ECF303F30E3CB39939BFBC35CC54262 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90CF9A0AD5D015E0131EF3CBE02B1CF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		939AF62C7CD27DC0D07C173C597FB8E3 /* Pods-CCGestureLock_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCGestureLock_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4AB5C209046B1EC3A873679E7C79341 /* CCGestureLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCGestureLock-dummy.m"; sourceTree = "<group>"; };
-		A8B3FCA5D4C4FC4A22E1FD4D5592B999 /* Pods-CCGestureLock_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCGestureLock_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AD12A68735683A31A8D1B19A60BA2EDF /* Pods-CCGestureLock_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCGestureLock_Example-resources.sh"; sourceTree = "<group>"; };
-		BBD91C2114C363B004EFC6D30B1AFA70 /* Pods-CCGestureLock_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCGestureLock_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB28FADB9E5880580ED0882027AD1F48 /* Pods-CCGestureLock_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CCGestureLock_Example.modulemap"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DD6CCC94352AD65E1A2AA726784B4B3A /* Pods-CCGestureLock_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCGestureLock_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DFEC82532F8763F409B5A6DCDE540EF2 /* Pods-CCGestureLock_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCGestureLock_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E11ACD2584E1C8E777240EE865696281 /* Pods-CCGestureLock_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCGestureLock_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E6558B1E4A2819C09BDB91C1046079F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4174E8449DABFF1B78BB0FE94923120 /* Pods-CCGestureLock_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCGestureLock_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FC67715F7AB0D8508B58FAAD94E875C2 /* Pods_CCGestureLock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCGestureLock_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B8B59B5C0C1C7500704FA88C32C984 /* CCGestureLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCGestureLock-umbrella.h"; sourceTree = "<group>"; };
+		1A5497E53EFF10E6EC59F3BAC485B988 /* Pods-CCGestureLock_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCGestureLock_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2A3B95549EFE2B34E26300226D276718 /* CCGestureLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCGestureLock.modulemap; sourceTree = "<group>"; };
+		2F80B81B92C1C65446DAE75F13DD3AB9 /* Pods-CCGestureLock_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCGestureLock_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37B5A586D2428FC24CE97B823E2893DA /* Pods-CCGestureLock_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCGestureLock_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CA7DC2E53E9B6BABC2D60F11EB2FE82 /* CCGestureLock.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CCGestureLock.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3CAD77CDE7ECFD0DED852263E6CAD2C2 /* Pods-CCGestureLock_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCGestureLock_Example-umbrella.h"; sourceTree = "<group>"; };
+		47A089757F6E4B9D45D166369939158D /* Pods-CCGestureLock_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCGestureLock_Example-dummy.m"; sourceTree = "<group>"; };
+		4D61BE9E470653B7EDCA1E6720E239F8 /* Pods-CCGestureLock_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCGestureLock_Tests-dummy.m"; sourceTree = "<group>"; };
+		4EF0B1460CEA59E9C585812F0AC14952 /* CCGestureLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCGestureLock-prefix.pch"; sourceTree = "<group>"; };
+		4FE072B87EE88007095FFA79A14469D3 /* Pods_CCGestureLock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CCGestureLock_Example.framework; path = "Pods-CCGestureLock_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BB4CFBCB1FA6BCF9BB7E7718D6E654 /* Pods-CCGestureLock_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCGestureLock_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FBB84BC600BEF0770528221378E41B2 /* CCGestureLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCGestureLock.framework; path = CCGestureLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD6A7BDAEDBFCF5824B00118716D905 /* CCGestureLockSensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCGestureLockSensor.swift; path = CCGestureLock/Classes/CCGestureLockSensor.swift; sourceTree = "<group>"; };
+		6CABEB81B1EF8C5896D9A9EA10EEB093 /* Pods-CCGestureLock_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCGestureLock_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		72DC9D5C6330D05151583DC2EDF02FDB /* Pods-CCGestureLock_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCGestureLock_Example-Info.plist"; sourceTree = "<group>"; };
+		7919E6B3B9BF34F7EB4ED49068C3F902 /* VersionBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersionBridge.swift; path = CCGestureLock/Classes/VersionBridge.swift; sourceTree = "<group>"; };
+		79CA175ABDDFCD632B2D1E2FD803B464 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7CC641661254CCF71EAAC96F3C0F38FD /* Pods-CCGestureLock_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCGestureLock_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8166FBB9CC6B62C3E86E9CA21139EA9A /* CCGestureLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCGestureLock-dummy.m"; sourceTree = "<group>"; };
+		836AA525E218666BB5A749304C663140 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8B22953DDCCEEFA7D2F2FD70130AE9DE /* Pods-CCGestureLock_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCGestureLock_Example.modulemap"; sourceTree = "<group>"; };
+		907A68E0F320554FA56A2D605FB313D3 /* Pods-CCGestureLock_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCGestureLock_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3E7C848869B0AD6551A3C423B995DF8 /* Pods_CCGestureLock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CCGestureLock_Tests.framework; path = "Pods-CCGestureLock_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61DE1F91BF4233A331E75F4CB735096 /* CCGestureLockAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCGestureLockAppearance.swift; path = CCGestureLock/Classes/CCGestureLockAppearance.swift; sourceTree = "<group>"; };
+		A7D868030DB7BBBC0F6F6BC1C81426B2 /* Pods-CCGestureLock_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCGestureLock_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B054881B9660E268064BEC7221E44E0A /* Pods-CCGestureLock_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCGestureLock_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B097D7EE1CBF79FEB952909D0DC75B53 /* Pods-CCGestureLock_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCGestureLock_Tests.modulemap"; sourceTree = "<group>"; };
+		CB224A2E7E0310886D31F3ECFD3C4798 /* CCGestureLockCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCGestureLockCollectionViewCell.swift; path = CCGestureLock/Classes/CCGestureLockCollectionViewCell.swift; sourceTree = "<group>"; };
+		D6F77E27F06EE702F697822F97FEF908 /* CCGestureLock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCGestureLock.xcconfig; sourceTree = "<group>"; };
+		DE1EA369ADFF3DABE9212E903152E743 /* CCGestureLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCGestureLock.swift; path = CCGestureLock/Classes/CCGestureLock.swift; sourceTree = "<group>"; };
+		DF2EFA14F02F79B75865F55FE6267646 /* Pods-CCGestureLock_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCGestureLock_Tests-Info.plist"; sourceTree = "<group>"; };
+		F8E88592A1CDE30560ED1D96EDAF206B /* Pods-CCGestureLock_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCGestureLock_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFF65CEB9382253058A3D02728C20605 /* CCGestureLock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCGestureLock-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B9DE2DEB21A9D9A943A1EB817F66D4A /* Frameworks */ = {
+		4E616CE8DB8775195C5D92ED5B0EB647 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				944E0C0098741D242FE341D594999AD0 /* Foundation.framework in Frameworks */,
+				B4B2AAEE39D2DDEDCEB803934CEB8B45 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72E705C393809DBEAD0ACD37ACF914B8 /* Frameworks */ = {
+		6E37A317C7BC42186BD7533516E2A8E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F45C9954C00DD458CF1C026907F02AF /* Foundation.framework in Frameworks */,
+				CB7360EF6091A9E2C359D774309A986B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E81C6F5DFF47A4734F922BB2632850B /* Frameworks */ = {
+		9AD53BC42DF767B7A929EFB55622B0DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9286F33CBF20B1498A2E35709EDBAE2 /* Foundation.framework in Frameworks */,
+				5D32293E01E7891A0B3CAA63435F6DCD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B0D6754CD7C13EB3E147BC308F55D72 /* Development Pods */ = {
+		060E0DDCF1E07715E23A15CC7A59A09C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B610BAF12AC6E146230D4F5455EC0A6 /* CCGestureLock */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		28F23DBD3A9EEE933A1BD2870308D015 /* CCGestureLock */ = {
-			isa = PBXGroup;
-			children = (
-				53BAF1366463D26A052CC3E982750334 /* Classes */,
-			);
-			path = CCGestureLock;
-			sourceTree = "<group>";
-		};
-		46FB09B72A362F7DD343B6C2110E1603 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				746B093530DA56316D2DD0A024D86213 /* CCGestureLock.framework */,
-				FC67715F7AB0D8508B58FAAD94E875C2 /* Pods_CCGestureLock_Example.framework */,
-				0E7AB2B4E79AC250656C2A330BB21B3C /* Pods_CCGestureLock_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		53BAF1366463D26A052CC3E982750334 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4724435E1E9F6F8F002971E5 /* CCGestureLock.swift */,
-				4724435F1E9F6F8F002971E5 /* CCGestureLockAppearance.swift */,
-				472443601E9F6F8F002971E5 /* CCGestureLockCollectionViewCell.swift */,
-				472443611E9F6F8F002971E5 /* CCGestureLockSensor.swift */,
-				47697277217047DC00FA3B50 /* VersionBridge.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		556CA1E02E9BBC4C75D964DAF3FD538C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EAEDC4673BE2433EAF3C5951D1C286B0 /* Pods-CCGestureLock_Example */,
-				7AFCC071AF77A3690BC31BED29971EDA /* Pods-CCGestureLock_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5B610BAF12AC6E146230D4F5455EC0A6 /* CCGestureLock */ = {
-			isa = PBXGroup;
-			children = (
-				28F23DBD3A9EEE933A1BD2870308D015 /* CCGestureLock */,
-				F79E61A350D9D6153BB61E26F9A5511E /* Support Files */,
-			);
-			name = CCGestureLock;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7AFCC071AF77A3690BC31BED29971EDA /* Pods-CCGestureLock_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				8ECF303F30E3CB39939BFBC35CC54262 /* Info.plist */,
-				5BC7AE177873307C8CD530C8AFF40E4A /* Pods-CCGestureLock_Tests.modulemap */,
-				7DFC97E927E883CE854BC7D262033BD5 /* Pods-CCGestureLock_Tests-acknowledgements.markdown */,
-				BBD91C2114C363B004EFC6D30B1AFA70 /* Pods-CCGestureLock_Tests-acknowledgements.plist */,
-				5CD28F1DD441557450DE48831033F5FF /* Pods-CCGestureLock_Tests-dummy.m */,
-				E11ACD2584E1C8E777240EE865696281 /* Pods-CCGestureLock_Tests-frameworks.sh */,
-				328D4C732C9552E37157A51D69E609C4 /* Pods-CCGestureLock_Tests-resources.sh */,
-				939AF62C7CD27DC0D07C173C597FB8E3 /* Pods-CCGestureLock_Tests-umbrella.h */,
-				DD6CCC94352AD65E1A2AA726784B4B3A /* Pods-CCGestureLock_Tests.debug.xcconfig */,
-				A8B3FCA5D4C4FC4A22E1FD4D5592B999 /* Pods-CCGestureLock_Tests.release.xcconfig */,
-			);
-			name = "Pods-CCGestureLock_Tests";
-			path = "Target Support Files/Pods-CCGestureLock_Tests";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0B0D6754CD7C13EB3E147BC308F55D72 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				46FB09B72A362F7DD343B6C2110E1603 /* Products */,
-				556CA1E02E9BBC4C75D964DAF3FD538C /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EAEDC4673BE2433EAF3C5951D1C286B0 /* Pods-CCGestureLock_Example */ = {
-			isa = PBXGroup;
-			children = (
-				E6558B1E4A2819C09BDB91C1046079F0 /* Info.plist */,
-				CB28FADB9E5880580ED0882027AD1F48 /* Pods-CCGestureLock_Example.modulemap */,
-				F4174E8449DABFF1B78BB0FE94923120 /* Pods-CCGestureLock_Example-acknowledgements.markdown */,
-				168219B0BE6A1FAAF1012DF7F917B92B /* Pods-CCGestureLock_Example-acknowledgements.plist */,
-				6914220A27726F07187ADBCA09F58E4E /* Pods-CCGestureLock_Example-dummy.m */,
-				577E98A2F1E948AE22D5A9E43C29A4BD /* Pods-CCGestureLock_Example-frameworks.sh */,
-				AD12A68735683A31A8D1B19A60BA2EDF /* Pods-CCGestureLock_Example-resources.sh */,
-				548B8829CC03EE186808EC3639F9D99F /* Pods-CCGestureLock_Example-umbrella.h */,
-				DFEC82532F8763F409B5A6DCDE540EF2 /* Pods-CCGestureLock_Example.debug.xcconfig */,
-				5AE60DF3D3F61B13993B4882FF4B8594 /* Pods-CCGestureLock_Example.release.xcconfig */,
-			);
-			name = "Pods-CCGestureLock_Example";
-			path = "Target Support Files/Pods-CCGestureLock_Example";
-			sourceTree = "<group>";
-		};
-		F79E61A350D9D6153BB61E26F9A5511E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2F28A44763F6F50186FFC877B5B35C25 /* CCGestureLock.modulemap */,
-				23A8965342A026E13195F3634DD36BB6 /* CCGestureLock.xcconfig */,
-				A4AB5C209046B1EC3A873679E7C79341 /* CCGestureLock-dummy.m */,
-				4040CA2C35E22D8DEFACF07DBDF90C8F /* CCGestureLock-prefix.pch */,
-				14B6D3DBA66A67943CDE6B14381C3A62 /* CCGestureLock-umbrella.h */,
-				90CF9A0AD5D015E0131EF3CBE02B1CF7 /* Info.plist */,
+				2A3B95549EFE2B34E26300226D276718 /* CCGestureLock.modulemap */,
+				D6F77E27F06EE702F697822F97FEF908 /* CCGestureLock.xcconfig */,
+				8166FBB9CC6B62C3E86E9CA21139EA9A /* CCGestureLock-dummy.m */,
+				FFF65CEB9382253058A3D02728C20605 /* CCGestureLock-Info.plist */,
+				4EF0B1460CEA59E9C585812F0AC14952 /* CCGestureLock-prefix.pch */,
+				14B8B59B5C0C1C7500704FA88C32C984 /* CCGestureLock-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CCGestureLock";
 			sourceTree = "<group>";
 		};
+		097BDA9C918C57F99D226BA6EA172F70 /* Pods-CCGestureLock_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8B22953DDCCEEFA7D2F2FD70130AE9DE /* Pods-CCGestureLock_Example.modulemap */,
+				7CC641661254CCF71EAAC96F3C0F38FD /* Pods-CCGestureLock_Example-acknowledgements.markdown */,
+				F8E88592A1CDE30560ED1D96EDAF206B /* Pods-CCGestureLock_Example-acknowledgements.plist */,
+				47A089757F6E4B9D45D166369939158D /* Pods-CCGestureLock_Example-dummy.m */,
+				907A68E0F320554FA56A2D605FB313D3 /* Pods-CCGestureLock_Example-frameworks.sh */,
+				72DC9D5C6330D05151583DC2EDF02FDB /* Pods-CCGestureLock_Example-Info.plist */,
+				3CAD77CDE7ECFD0DED852263E6CAD2C2 /* Pods-CCGestureLock_Example-umbrella.h */,
+				2F80B81B92C1C65446DAE75F13DD3AB9 /* Pods-CCGestureLock_Example.debug.xcconfig */,
+				1A5497E53EFF10E6EC59F3BAC485B988 /* Pods-CCGestureLock_Example.release.xcconfig */,
+			);
+			name = "Pods-CCGestureLock_Example";
+			path = "Target Support Files/Pods-CCGestureLock_Example";
+			sourceTree = "<group>";
+		};
+		19F323D5C964A6CE34CEBA6F70E8EDC4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E47A47C2A2D6093FC0829CB266448782 /* CCGestureLock */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5270E04CF24400CF856BE214B78FCD0A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				097BDA9C918C57F99D226BA6EA172F70 /* Pods-CCGestureLock_Example */,
+				6D0D5D6D7894B5B444D0A9A192CF3912 /* Pods-CCGestureLock_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6D0D5D6D7894B5B444D0A9A192CF3912 /* Pods-CCGestureLock_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B097D7EE1CBF79FEB952909D0DC75B53 /* Pods-CCGestureLock_Tests.modulemap */,
+				37B5A586D2428FC24CE97B823E2893DA /* Pods-CCGestureLock_Tests-acknowledgements.markdown */,
+				54BB4CFBCB1FA6BCF9BB7E7718D6E654 /* Pods-CCGestureLock_Tests-acknowledgements.plist */,
+				4D61BE9E470653B7EDCA1E6720E239F8 /* Pods-CCGestureLock_Tests-dummy.m */,
+				DF2EFA14F02F79B75865F55FE6267646 /* Pods-CCGestureLock_Tests-Info.plist */,
+				A7D868030DB7BBBC0F6F6BC1C81426B2 /* Pods-CCGestureLock_Tests-umbrella.h */,
+				6CABEB81B1EF8C5896D9A9EA10EEB093 /* Pods-CCGestureLock_Tests.debug.xcconfig */,
+				B054881B9660E268064BEC7221E44E0A /* Pods-CCGestureLock_Tests.release.xcconfig */,
+			);
+			name = "Pods-CCGestureLock_Tests";
+			path = "Target Support Files/Pods-CCGestureLock_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				19F323D5C964A6CE34CEBA6F70E8EDC4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D4C8BF1DE7DEAD60A05CF5D2D31315B2 /* Products */,
+				5270E04CF24400CF856BE214B78FCD0A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4C8BF1DE7DEAD60A05CF5D2D31315B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FBB84BC600BEF0770528221378E41B2 /* CCGestureLock.framework */,
+				4FE072B87EE88007095FFA79A14469D3 /* Pods_CCGestureLock_Example.framework */,
+				A3E7C848869B0AD6551A3C423B995DF8 /* Pods_CCGestureLock_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E17948F28839EEA1C30E2CAC2769DFD0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3CA7DC2E53E9B6BABC2D60F11EB2FE82 /* CCGestureLock.podspec */,
+				836AA525E218666BB5A749304C663140 /* LICENSE */,
+				79CA175ABDDFCD632B2D1E2FD803B464 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E47A47C2A2D6093FC0829CB266448782 /* CCGestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				DE1EA369ADFF3DABE9212E903152E743 /* CCGestureLock.swift */,
+				A61DE1F91BF4233A331E75F4CB735096 /* CCGestureLockAppearance.swift */,
+				CB224A2E7E0310886D31F3ECFD3C4798 /* CCGestureLockCollectionViewCell.swift */,
+				5FD6A7BDAEDBFCF5824B00118716D905 /* CCGestureLockSensor.swift */,
+				7919E6B3B9BF34F7EB4ED49068C3F902 /* VersionBridge.swift */,
+				E17948F28839EEA1C30E2CAC2769DFD0 /* Pod */,
+				060E0DDCF1E07715E23A15CC7A59A09C /* Support Files */,
+			);
+			name = CCGestureLock;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		121E5675510E00B5D365B51EBC737A3C /* Headers */ = {
+		04201E7A8F24BCB810C3E1201B4C883B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441338E512A48799219CDC46AD3E659B /* Pods-CCGestureLock_Example-umbrella.h in Headers */,
+				9C14D52A12FF4B1C47B13D8FE82E1D06 /* Pods-CCGestureLock_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED7EC2B85515132523677D9BF4418825 /* Headers */ = {
+		0CAE3FD16B295903FD230C051F5F6E44 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B06E5621C9B5428AF36FB66F5F151D2 /* Pods-CCGestureLock_Tests-umbrella.h in Headers */,
+				5821F3C5C70FFF74971F6F6DBD406E6B /* Pods-CCGestureLock_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7409B0F9EAFAB7596C6A30A6C183D2E /* Headers */ = {
+		5AA87D8884F6E0EB5CD546A59BECD1F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EC3B35F28848AC68CCA85FE7A20D25A /* CCGestureLock-umbrella.h in Headers */,
+				D4AE12D2D4F4042F91AED6ED585BA866 /* CCGestureLock-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		22D8834F0E0A1FBB204456E5BDDE1C56 /* CCGestureLock */ = {
+		0532D55631869FCCFCFC8CF00B2B2B9E /* CCGestureLock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF7E70840C0CD8BDA89B26E738C026F9 /* Build configuration list for PBXNativeTarget "CCGestureLock" */;
+			buildConfigurationList = B8FCDC683C40E11259902EE4A8CA7922 /* Build configuration list for PBXNativeTarget "CCGestureLock" */;
 			buildPhases = (
-				279CF66EBCCE0AE1100C167A9B70FC38 /* Sources */,
-				8E81C6F5DFF47A4734F922BB2632850B /* Frameworks */,
-				F7409B0F9EAFAB7596C6A30A6C183D2E /* Headers */,
+				5AA87D8884F6E0EB5CD546A59BECD1F6 /* Headers */,
+				AA53C9F764D473E6F0DC2902E655148D /* Sources */,
+				9AD53BC42DF767B7A929EFB55622B0DF /* Frameworks */,
+				BD67E6DD429ADA3919969A143BC98FEB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -278,444 +278,509 @@
 			);
 			name = CCGestureLock;
 			productName = CCGestureLock;
-			productReference = 746B093530DA56316D2DD0A024D86213 /* CCGestureLock.framework */;
+			productReference = 5FBB84BC600BEF0770528221378E41B2 /* CCGestureLock.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3E99E046F40A15DA6CC18F191C771972 /* Pods-CCGestureLock_Example */ = {
+		530E1F1357E4EBDB2E985E81C59D9D1D /* Pods-CCGestureLock_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAC6E046A10FBD73296F1AAA4A3D1710 /* Build configuration list for PBXNativeTarget "Pods-CCGestureLock_Example" */;
+			buildConfigurationList = 90622DF075EA2D4269F32644ADD15DAF /* Build configuration list for PBXNativeTarget "Pods-CCGestureLock_Tests" */;
 			buildPhases = (
-				8A66FD39793A17A822E132EF57398A64 /* Sources */,
-				72E705C393809DBEAD0ACD37ACF914B8 /* Frameworks */,
-				121E5675510E00B5D365B51EBC737A3C /* Headers */,
+				04201E7A8F24BCB810C3E1201B4C883B /* Headers */,
+				3CD60094E59A072C9610950CE44EBF38 /* Sources */,
+				6E37A317C7BC42186BD7533516E2A8E6 /* Frameworks */,
+				A5D5492BCBCA364F116535B622BE3AE0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EF49D2DBEADF56DBB6983A64C0FC9ADE /* PBXTargetDependency */,
-			);
-			name = "Pods-CCGestureLock_Example";
-			productName = "Pods-CCGestureLock_Example";
-			productReference = FC67715F7AB0D8508B58FAAD94E875C2 /* Pods_CCGestureLock_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DD2A13F2B904E985955E1AD096462C80 /* Pods-CCGestureLock_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C10EC6AAB1D73AF66574168B8DF2476D /* Build configuration list for PBXNativeTarget "Pods-CCGestureLock_Tests" */;
-			buildPhases = (
-				0B09CC68C90483521844B7AAFB155436 /* Sources */,
-				1B9DE2DEB21A9D9A943A1EB817F66D4A /* Frameworks */,
-				ED7EC2B85515132523677D9BF4418825 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				2CB7432714C188ED2A5DBD0BF6369C89 /* PBXTargetDependency */,
 			);
 			name = "Pods-CCGestureLock_Tests";
 			productName = "Pods-CCGestureLock_Tests";
-			productReference = 0E7AB2B4E79AC250656C2A330BB21B3C /* Pods_CCGestureLock_Tests.framework */;
+			productReference = A3E7C848869B0AD6551A3C423B995DF8 /* Pods_CCGestureLock_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90BF74A46B5DA6268CFC00AA9303321D /* Pods-CCGestureLock_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3147648C699B4CC036EDE406CDD8BF7F /* Build configuration list for PBXNativeTarget "Pods-CCGestureLock_Example" */;
+			buildPhases = (
+				0CAE3FD16B295903FD230C051F5F6E44 /* Headers */,
+				44ED35D5DD754737B931F1F45A805D58 /* Sources */,
+				4E616CE8DB8775195C5D92ED5B0EB647 /* Frameworks */,
+				CB5D46699E7D058F611712969CF2DE71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D49AD40664BE228E2ECF26DB0B9316F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-CCGestureLock_Example";
+			productName = "Pods-CCGestureLock_Example";
+			productReference = 4FE072B87EE88007095FFA79A14469D3 /* Pods_CCGestureLock_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 46FB09B72A362F7DD343B6C2110E1603 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D4C8BF1DE7DEAD60A05CF5D2D31315B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22D8834F0E0A1FBB204456E5BDDE1C56 /* CCGestureLock */,
-				3E99E046F40A15DA6CC18F191C771972 /* Pods-CCGestureLock_Example */,
-				DD2A13F2B904E985955E1AD096462C80 /* Pods-CCGestureLock_Tests */,
+				0532D55631869FCCFCFC8CF00B2B2B9E /* CCGestureLock */,
+				90BF74A46B5DA6268CFC00AA9303321D /* Pods-CCGestureLock_Example */,
+				530E1F1357E4EBDB2E985E81C59D9D1D /* Pods-CCGestureLock_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		A5D5492BCBCA364F116535B622BE3AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD67E6DD429ADA3919969A143BC98FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5D46699E7D058F611712969CF2DE71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		0B09CC68C90483521844B7AAFB155436 /* Sources */ = {
+		3CD60094E59A072C9610950CE44EBF38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A07AB81012DBA4FB86BEF7AD599485 /* Pods-CCGestureLock_Tests-dummy.m in Sources */,
+				C6231E5667E5626FF86FEEC1017F5D67 /* Pods-CCGestureLock_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		279CF66EBCCE0AE1100C167A9B70FC38 /* Sources */ = {
+		44ED35D5DD754737B931F1F45A805D58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				472443651E9F6F8F002971E5 /* CCGestureLockSensor.swift in Sources */,
-				47697278217047DC00FA3B50 /* VersionBridge.swift in Sources */,
-				246A32288CEE89EDE71AB530124143D3 /* CCGestureLock-dummy.m in Sources */,
-				472443631E9F6F8F002971E5 /* CCGestureLockAppearance.swift in Sources */,
-				472443621E9F6F8F002971E5 /* CCGestureLock.swift in Sources */,
-				472443641E9F6F8F002971E5 /* CCGestureLockCollectionViewCell.swift in Sources */,
+				88FCFC39D8FE72685D19206FCED16C88 /* Pods-CCGestureLock_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A66FD39793A17A822E132EF57398A64 /* Sources */ = {
+		AA53C9F764D473E6F0DC2902E655148D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA860EDBE426C649C9232E1B00A604C7 /* Pods-CCGestureLock_Example-dummy.m in Sources */,
+				2F9970FE28C3DE5090DA66387A8873F3 /* CCGestureLock-dummy.m in Sources */,
+				CD05F06859EAE68789D6005338F320E1 /* CCGestureLock.swift in Sources */,
+				08149967E06BC8D37FACC51DC8556B70 /* CCGestureLockAppearance.swift in Sources */,
+				5270285D6B02B52D7F1543AADD73C5F7 /* CCGestureLockCollectionViewCell.swift in Sources */,
+				ADCA211AFAA797D2BB2BA4D8D3C32B0C /* CCGestureLockSensor.swift in Sources */,
+				C7420F805DF57B99D4C788E74443E4BD /* VersionBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EF49D2DBEADF56DBB6983A64C0FC9ADE /* PBXTargetDependency */ = {
+		2CB7432714C188ED2A5DBD0BF6369C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CCGestureLock_Example";
+			target = 90BF74A46B5DA6268CFC00AA9303321D /* Pods-CCGestureLock_Example */;
+			targetProxy = 5734ECF0082B7962D3C9042D2B6980D7 /* PBXContainerItemProxy */;
+		};
+		D49AD40664BE228E2ECF26DB0B9316F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CCGestureLock;
-			target = 22D8834F0E0A1FBB204456E5BDDE1C56 /* CCGestureLock */;
-			targetProxy = EE9A04FD9B8C1B521E87CA3C145A7C2D /* PBXContainerItemProxy */;
+			target = 0532D55631869FCCFCFC8CF00B2B2B9E /* CCGestureLock */;
+			targetProxy = FBA14D4EA53276B077B7DD98F1C43CD8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		004B0C08DAE0F2BCDF74A7A4B639CA9F /* Debug */ = {
+		0B00D30F96FE2501A73C99AD2E079711 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23A8965342A026E13195F3634DD36BB6 /* CCGestureLock.xcconfig */;
+			baseConfigurationReference = D6F77E27F06EE702F697822F97FEF908 /* CCGestureLock.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/CCGestureLock/CCGestureLock-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CCGestureLock/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/CCGestureLock/CCGestureLock-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CCGestureLock/CCGestureLock.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_MODULE_NAME = CCGestureLock;
 				PRODUCT_NAME = CCGestureLock;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		0AB99FD36011142563230BC78FA1BFD3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AE60DF3D3F61B13993B4882FF4B8594 /* Pods-CCGestureLock_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CCGestureLock_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CCGestureLock_Example/Pods-CCGestureLock_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CCGestureLock_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		62182973DB9FFEF9CAE3C4DDEE404C94 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFEC82532F8763F409B5A6DCDE540EF2 /* Pods-CCGestureLock_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CCGestureLock_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CCGestureLock_Example/Pods-CCGestureLock_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CCGestureLock_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7768427B9C85A668814377665D75C203 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23A8965342A026E13195F3634DD36BB6 /* CCGestureLock.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CCGestureLock/CCGestureLock-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CCGestureLock/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CCGestureLock/CCGestureLock.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CCGestureLock;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+		6A321FF7328343DC60760C31CB10CDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B054881B9660E268064BEC7221E44E0A /* Pods-CCGestureLock_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCGestureLock_Tests/Pods-CCGestureLock_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCGestureLock_Tests/Pods-CCGestureLock_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B134D9249A99145CD7539A98BEFE168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CABEB81B1EF8C5896D9A9EA10EEB093 /* Pods-CCGestureLock_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCGestureLock_Tests/Pods-CCGestureLock_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCGestureLock_Tests/Pods-CCGestureLock_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F172F3298094998041E0EAE9C0BCC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F80B81B92C1C65446DAE75F13DD3AB9 /* Pods-CCGestureLock_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCGestureLock_Example/Pods-CCGestureLock_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCGestureLock_Example/Pods-CCGestureLock_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		CFC8B3AA020E5B902E097E2FF449CB36 /* Release */ = {
+		936958C5D092DA0CF682C7EA3FD3C053 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8B3FCA5D4C4FC4A22E1FD4D5592B999 /* Pods-CCGestureLock_Tests.release.xcconfig */;
+			baseConfigurationReference = D6F77E27F06EE702F697822F97FEF908 /* CCGestureLock.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CCGestureLock_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CCGestureLock/CCGestureLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCGestureLock/CCGestureLock-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CCGestureLock_Tests/Pods-CCGestureLock_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CCGestureLock_Tests;
+				MODULEMAP_FILE = "Target Support Files/CCGestureLock/CCGestureLock.modulemap";
+				PRODUCT_MODULE_NAME = CCGestureLock;
+				PRODUCT_NAME = CCGestureLock;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		F4ACEB7F25B4B55800D9FFA7E04B8708 /* Debug */ = {
+		9EC832B4471A48C8A9B6177CD3F20353 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD6CCC94352AD65E1A2AA726784B4B3A /* Pods-CCGestureLock_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1A5497E53EFF10E6EC59F3BAC485B988 /* Pods-CCGestureLock_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CCGestureLock_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCGestureLock_Example/Pods-CCGestureLock_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CCGestureLock_Tests/Pods-CCGestureLock_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCGestureLock_Example/Pods-CCGestureLock_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CCGestureLock_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		3147648C699B4CC036EDE406CDD8BF7F /* Build configuration list for PBXNativeTarget "Pods-CCGestureLock_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				6F172F3298094998041E0EAE9C0BCC48 /* Debug */,
+				9EC832B4471A48C8A9B6177CD3F20353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C10EC6AAB1D73AF66574168B8DF2476D /* Build configuration list for PBXNativeTarget "Pods-CCGestureLock_Tests" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4ACEB7F25B4B55800D9FFA7E04B8708 /* Debug */,
-				CFC8B3AA020E5B902E097E2FF449CB36 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF7E70840C0CD8BDA89B26E738C026F9 /* Build configuration list for PBXNativeTarget "CCGestureLock" */ = {
+		90622DF075EA2D4269F32644ADD15DAF /* Build configuration list for PBXNativeTarget "Pods-CCGestureLock_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				004B0C08DAE0F2BCDF74A7A4B639CA9F /* Debug */,
-				7768427B9C85A668814377665D75C203 /* Release */,
+				6B134D9249A99145CD7539A98BEFE168 /* Debug */,
+				6A321FF7328343DC60760C31CB10CDB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAC6E046A10FBD73296F1AAA4A3D1710 /* Build configuration list for PBXNativeTarget "Pods-CCGestureLock_Example" */ = {
+		B8FCDC683C40E11259902EE4A8CA7922 /* Build configuration list for PBXNativeTarget "CCGestureLock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62182973DB9FFEF9CAE3C4DDEE404C94 /* Debug */,
-				0AB99FD36011142563230BC78FA1BFD3 /* Release */,
+				0B00D30F96FE2501A73C99AD2E079711 /* Debug */,
+				936958C5D092DA0CF682C7EA3FD3C053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
